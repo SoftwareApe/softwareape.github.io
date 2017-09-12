@@ -1,5 +1,5 @@
 baseURL = "https://softwareape.github.io"
-title = "S. Ape"
+title = "random thoughts"
 copyright = ""
 
 theme = "minimo"
@@ -13,7 +13,7 @@ preserveTaxonomyNames = true
 [params]
   description = "Basic static site."
   dateFormat = "2006, Jan 2"
-  copyrightOwner = "MunifTanjim"
+  copyrightOwner = "SoftwareApe"
   copyrightStartYear = "2017"
   favicon = "favicon.ico"
   hideEntryNavigation = false
