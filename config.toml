@@ -1,6 +1,6 @@
 baseURL = "https://softwareape.github.io"
-title = "random thoughts"
-copyright = ""
+title = "SoftwareApe's Blog"
+copyright = "Random thoughts on software, life, and who's still reading?"
 
 theme = "minimo"
 
