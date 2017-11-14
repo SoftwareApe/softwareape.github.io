@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on SoftwareApe&#39;s Blog</title>
+    <link>https://softwareape.github.io/tags/blog/</link>
+    <description>Recent content in Blog on SoftwareApe&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Random thoughts on software, life, and who&#39;s still reading?</copyright>
+    <lastBuildDate>Tue, 14 Nov 2017 23:22:58 +0100</lastBuildDate>
+    
+	<atom:link href="https://softwareape.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to start a blog</title>
+      <link>https://softwareape.github.io/post/first-post/</link>
+      <pubDate>Tue, 14 Nov 2017 23:22:58 +0100</pubDate>
+      
+      <guid>https://softwareape.github.io/post/first-post/</guid>
+      <description>Welcome to my blog I&amp;rsquo;ve been meaning to start a blog for a while. I found this handy guide with which I could create a static website in less than 3 hours. Check it out here.</description>
+    </item>
+    
+  </channel>
+</rss>
