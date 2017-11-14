@@ -2,7 +2,7 @@ baseURL = "https://softwareape.github.io"
 title = "SoftwareApe's Blog"
 copyright = "Random thoughts on software, life, and who's still reading?"
 
-theme = "minimo"
+theme = "Carl"
 
 disqusShortname = ""
 googleAnalytics = ""
@@ -39,7 +39,7 @@ preserveTaxonomyNames = true
   facebook = ""
 
 [author]
-  name = "Minimo"
+  name = "Carl"
 
 [author.social]
   codepen = ""
