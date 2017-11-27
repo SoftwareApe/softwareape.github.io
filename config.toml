@@ -11,7 +11,7 @@ Paginate = 5
 preserveTaxonomyNames = true
 
 [params]
-  description = "Basic static site."
+  description = ""
   dateFormat = "2006, Jan 2"
   copyrightOwner = "SoftwareApe"
   copyrightStartYear = "2017"
