@@ -6,10 +6,20 @@
     <description>Recent content in Posts on SoftwareApe&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Random thoughts on software, life, and who&#39;s still reading?</copyright>
-    <lastBuildDate>Tue, 14 Nov 2017 23:22:58 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 27 Nov 2017 20:14:10 +0100</lastBuildDate>
     
 	<atom:link href="https://softwareape.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My First VSCode Extension</title>
+      <link>https://softwareape.github.io/post/2017-11-27_my_first_vscode_extension/</link>
+      <pubDate>Mon, 27 Nov 2017 20:14:10 +0100</pubDate>
+      
+      <guid>https://softwareape.github.io/post/2017-11-27_my_first_vscode_extension/</guid>
+      <description>My first VSCode Extension I&amp;rsquo;ve been using VSCode as my editor of choice for quite a while now. It&amp;rsquo;s a really well-made editor for programmers, featuring many community made high quality extensions.
+One of the features I use quite often is multiple selection. You can edit many places at the same time entering the same text. What I was missing however, was an easy to use feature where I could insert a sequence of numbers, for example to do array access.</description>
+    </item>
     
     <item>
       <title>How to start a blog</title>

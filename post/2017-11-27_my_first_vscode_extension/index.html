@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='My first VSCode Extension I&rsquo;ve been using VSCode as my editor of choice for quite a while now. It&rsquo;s a really well-made editor for programmers, featuring many community made high quality extensions.
+One of the features I use quite often is multiple selection. You can edit many places at the same time entering the same text. What I was missing however, was an easy to use feature where I could insert a sequence of numbers, for example to do array access.'>
+
+<meta property='og:title' content='My First VSCode Extension • Carl'>
+<meta property='og:description' content='My first VSCode Extension I&rsquo;ve been using VSCode as my editor of choice for quite a while now. It&rsquo;s a really well-made editor for programmers, featuring many community made high quality extensions.
+One of the features I use quite often is multiple selection. You can edit many places at the same time entering the same text. What I was missing however, was an easy to use feature where I could insert a sequence of numbers, for example to do array access.'>
+<meta property='og:url' content='https://softwareape.github.io/post/2017-11-27_my_first_vscode_extension/'>
+<meta property='og:site_name' content='SoftwareApe&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:published_time' content='2017-11-27T20:14:10&#43;01:00'/><meta property='article:modified_time' content='2017-11-27T20:14:10&#43;01:00'/>
+
+<meta name="generator" content="Hugo 0.27" />
+
+  <title>My First VSCode Extension • Carl</title>
+  <link rel='canonical' href='https://softwareape.github.io/post/2017-11-27_my_first_vscode_extension/'>
+  <link rel='icon' href='/favicon.ico'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700&subset=latin'>
+<link rel='stylesheet' href='/css/main.67a788c9.css'>
+
+  <link rel='stylesheet' href='/css/custom.css'>
+
+
+
+</head>
+
+
+<body class='page'>
+  <div class='site'>
+    <header id='header' class='header-container'>
+      <div class='site-header'>
+        <nav id='navmenu' aria-label='Main Menu'>
+  <ul class='main-menu'>
+    
+    <li>
+      <a href='https://softwareape.github.io' 
+        
+      >Blog</a>
+    </li>
+    
+  </ul>
+</nav>
+
+        <div class='site-info'>
+          
+          <p class='site-title title'>SoftwareApe&#39;s Blog</p>
+          
+          <p class='site-description'>Basic static site.</p>
+        </div>
+      </div>
+    </header>
+
+
+<main class='main'>
+  <article lang='en' class='entry'>
+    <header class='entry-header'>
+  <div class='entry-info'>
+    <h1 class='entry-title title'>My First VSCode Extension</h1>
+    
+  </div>
+  
+<div class='meta'>
+  <span class='posted-on'>
+    <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+
+    <span class='screen-reader'>Posted on </span>
+    <time class='date' datetime='2017-11-27T20:14:10&#43;01:00'>2017, Nov 27</time>
+  </span>
+  
+  <span class='byline'>
+    <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+
+    <span class='screen-reader'> by </span>
+    Carl
+  </span>
+  
+  
+  <span class='reading-time'>
+    <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/> 
+  
+</svg>
+
+    3 mins read
+  </span>
+  
+</div>
+
+
+</header>
+
+    <div class='entry-content'>
+  
+
+<h1 id="my-first-vscode-extension">My first VSCode Extension</h1>
+
+<p>I&rsquo;ve been using VSCode as my editor of choice for quite a while now. It&rsquo;s a really well-made editor for programmers, featuring many community made high quality extensions.</p>
+
+<p>One of the features I use quite often is multiple selection. You can edit many places at the same time entering the same text. What I was missing however, was an easy to use feature where I could insert a sequence of numbers, for example to do array access.</p>
+
+<p>I searched the extensions, and could only find one extension that kind of qualified. It did however require you to type your sprintf format string on every use. I wanted something easier to use which doesn&rsquo;t distract you from what you&rsquo;re doing.</p>
+
+<h2 id="vscode-is-electron-electron-is-javascript">VSCode is Electron, Electron is JavaScript</h2>
+
+<p>You can&rsquo;t be in the software business without having heard the horrors of JavaScript. Working on embedded systems I hadn&rsquo;t done anything in JavaScript in more than a decade. It couldn&rsquo;t be that hard though.</p>
+
+<h3 id="enter-the-yeoman-scaffolding-tool">Enter the Yeoman Scaffolding Tool.</h3>
+
+<p>I looked at the <a href="https://code.visualstudio.com/docs/extensions/example-hello-world">official tutorial for writing your first VSCode extension</a>. They used the <a href="http://yeoman.io/"><strong>Yeoman</strong> scaffolding tool</a>. Working in embedded software I&rsquo;ve never seen a system work so well out of the box. You just type in a few short commands and you get your barebones extension with debugging, testing, VSCode workspace and git set up with one simple command.
+Also it lets you select TypeScript, which IMHO is much easier than JavaScript, because your editor can help you much better if it knows what interface it&rsquo;s dealing with on a function. So I still didn&rsquo;t learn JavaScript on this adventure. TypeScript isn&rsquo;t half bad though.</p>
+
+<h3 id="testing-the-extension">Testing the Extension</h3>
+
+<p>Yeoman generated a unit test environment without even asking. It&rsquo;s amazingly helpful to be able to test drive your code right off the bat without having to learn much about a testing framework. Also the VSCode extension skeleton is set up so you can test in a VSCode debugging session in an editor that starts on F5. Pretty amazing!</p>
+
+<h3 id="publishing-the-extension">Publishing the Extension</h3>
+
+<h4 id="writing-a-readme">Writing a Readme</h4>
+
+<p>The Readme is what&rsquo;s going to be displayed when you look at the Extension on the Extension marketplace. It&rsquo;s markdown, it doesn&rsquo;t get simpler than that!</p>
+
+<h4 id="vsce">vsce</h4>
+
+<p>I had my code versioned on Github, had used it locally, and now wanted to publish it. Again I was surprised how easy it is. You just need to <a href="https://code.visualstudio.com/docs/extensions/publish-extension">install <strong>vsce</strong> and generate a personal token on <em>Visual Studio Team Services</em></a>. Publishing becomes as easy as typing &ldquo;vsce publish&rdquo;.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>It took me less than a week, only working a few hours in the evenings after work, to go from knowing nothing about JavaScript and VSCode Extensions to getting my extension it published. Now I know why there&rsquo;s such a plethora of extensions available for VSCode. It has never been easier to extend your editor. The extension is now avaialble on the <a href="https://marketplace.visualstudio.com/items?itemName=softwareape.numbermonger">Visual Studio Marketplace</a>. If you have an idea, I can only suggest trying it out.</p>
+
+</div>
+
+    
+<footer class='entry-footer'>
+  
+    
+      
+      <div class='categories'>
+  <span class='category-icon'>
+    <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+  
+</svg>
+
+  </span>
+  <span class='screen-reader'>Categories: </span><a class='category' href='/categories/github'>Github</a>, <a class='category' href='/categories/vscode'>VSCode</a>, <a class='category' href='/categories/programming'>Programming</a></div>
+
+    
+  
+    
+  
+</footer>
+
+
+  </article>
+
+  
+    
+<nav class='entry-nav'>
+  <div class='entry-nav-links'><div class='prev-entry'>
+      <a href='https://softwareape.github.io/post/first-post/'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+  
+</svg>
+ Previous</span>
+        <span class='screen-reader'>Previous post: </span>How to start a blog</a>
+    </div></div>
+</nav>
+
+
+  
+
+  
+    <div class='comments-container'>
+  
+</div>
+
+  
+</main>
+
+    <footer id='footer' class='footer-container'>
+      <div class='footer'>
+        <div class='social'>
+  <nav aria-label='Social Menu'>
+    <ul class='social-menu'></ul>
+  </nav>
+</div>
+
+        <div class='copyright'>
+          <p>Random thoughts on software, life, and who&#39;s still reading?</p>
+
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src='/js/main.af838dd5.js'></script>
+  
+    <script src='/js/custom.js'></script>
+  
+
+</body>
+
+</html>
+
